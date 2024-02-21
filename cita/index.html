@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="/img/principal.png">
+    <title>citas</title>
+</head>
+<body>
+    <div class="subir"> 
+        <!--link de navegacion -->
+        <ul> 
+            <li><a href="/entrada/ ">inicio</a></li>
+            <li><a href="/paciente/">paciente</a></li>
+            <li><a href="/medico/">medico</a></li>
+            <li><a href="">citas</a></li>
+        </ul>
+        <!--logo-->
+    <div><img src="/img/1.png" class="imagen"></div>
+    </div>
+    <!--formulario-->
+    <div class="formulario">
+        <h1 class="titulo">Consultorio Odontologico Dolby</h1>
+        <form class="cita">
+         <div>
+            <h2>Citas</h2>
+            <label for="horacita">Fecha cita</label>
+            <input type="time" id="fecha" required>
+         </div>
+         <div class="for-input">
+             <label for="hora">Hora</label>
+             <input type="time" id="hora" required>
+         </div>
+         <div class="for-input">
+            <label for="estado">Estado</label>
+           <textarea name="motivo" id="estado" placeholder="motivo" cols="5" rows="5">estado</textarea>
+         </div>
+         <div class="for-input">
+            <label for="paciente">Obserbaciones</label>
+            <textarea type="text" id="Obserbaciones" placeholder="obserbaciones" cols="5">Obserbaciones</textarea> 
+            <!--buttons agregar cancelar volver s-->
+         </div>
+            <button type="submit" class="agendar">Agendar</button>
+            <button type="submit" class="cancelar">Cancelar</button>
+            <button type="submit" class="volver">Volver</button>
+            </div>
+
+        </form>
+    </div>
+</body>
+</html>

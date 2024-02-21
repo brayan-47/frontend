@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="/img/principal.png">
+    <title>Pasiente</title>
+</head>
+<body>
+    <div class="subir">
+        <ul>
+            <!--link de navegacion-->
+            <li><a target="_blank" href="/entrada/">Inicio</a></li>
+            <li><a target="" href="/paciente/">paciente</a></li>
+            <li><a target="_blank"  href="/medico/">medico</a></li>
+            <li><a target="_blank" href="/citas/">citas</a></li>
+        </ul>
+        <!--logo-->
+    <div><img src="/img/1.png" class="imagen"></div>
+    </div>
+    <div> 
+        <!--logo--> 
+    <h1 class="dolbi">Consultorio Odontologico Dolby</h1> 
+        <div class="container">
+            <!--formulario-->
+       <form class="formulario">
+        <h2>Formulario <br>Paciente</h2>
+        
+        <div class="form-input-material">
+            <label for="nombre">Nombre</label>
+            <input type="text" value="" id="nombre" placeholder="Nombre" required>
+        </div>
+        <div class="form-input-material">
+            <label for="apellido">Apellido</label> 
+            <input type="text" value="" id="apellido" placeholder="Apellido" required>
+        </div>
+            <div class="form-input-material">
+            <label for="documento">Tipo Documento</label>
+        <input list="tipo-documen" type="text"  id="documento" placeholder="Documento" required>
+            <datalist id="tipo-documen">
+                <option value="CC"></option>
+                <option value="Tarjeta identidad"></option>
+                <option value="Extranjero"></option>                
+         </datalist>            
+        </div>
+        <div class="form-input-material">
+            <label for="numero">Num documento</label>
+            <input type="text" value="" id="numero" placeholder="Numero" required>
+        </div>
+        <div class="form-input-material">
+            <label for="fechanacimiento">Fecha Nacimiento</label>
+            <input type="date" type="text" id="fecha" placeholder="Fechanacimiento" required>
+        </div>
+        <div class="form-input-material">
+            <label for="tipo-de-sangre">RH</label>
+            <input list="brayan" id="rh" placeholder="RH" required>
+        <datalist id="brayan">
+            <option value="A+"></option>
+            <option value="A-"></option>
+            <option value="B+"></option>
+            <option value="B-"></option>
+            <option value="AB+"></option>
+            <option value="AB-"></option>
+            <option value="O+"></option>
+            <option value="O-"></option>
+        </datalist>
+        </div>
+        <div class="form-input-material">
+            <label for="genero">Genero</label>
+             <input list="genero" id="genero" placeholder="Genero" required>
+        <datalist id="generos">
+            <option value="Masculino"></option>
+            <option value="Femenino"></option>
+            <option value="Otro"></option>
+        </datalist>
+        </div>
+        <!--buttons-->
+        <div class="but">
+            <button type="submit" class="guardar">Guardar</button> 
+            <button type="submit" class="eliminar">Eliminar</button>
+            <button type="submit" class="nuevo">Nuevo</button>        
+            <button type="submit" class="cancelar">Cancelar</button>
+        </div>
+    </form>
+     </div>
+    </div>
+</body>
+</html>

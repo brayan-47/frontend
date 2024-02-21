@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Tratamiento</title>
+</head>
+<body>
+    <div class="subir">
+        <ul>
+            <!--link de navegacion-->
+            <li><a href="/entrada/ ">inicio</a></li>
+            <li><a href="/paciente/">paciente</a></li>
+            <li><a href="/medico/">medico</a></li>
+            <li><a href="">citas</a></li>
+        </ul>
+        <!--logo-->
+    <div><img src="/img/1.png" class="imagen"></div>
+    </div>
+    <!--formulario-->
+<div class="formulario">
+    <h1 class="titulo">Consultorio Odontologico Dolby</h1>
+    <form action="formulario">
+    <div class="for-input">
+        <h2>Tratamiento</h2>
+        <label for="fecha de asignacion">
+            Fecha de asignación
+            <input type="date" id="asignacion" required>
+        </label>
+    </div>
+    <div class="for-input">
+        <label for="descripcion">
+            Descripción
+            <input type="text" id="descripcion" placeholder="Descripción" required>
+        </label>
+    </div>
+    <div class="for-input">
+        <label for="fecha tratamiento">
+            Fecha tratamiento
+            <input type="date" id="tratamiento" required>
+        </label>
+    </div>
+    <div class="for-input">
+        <label for="fecha fin tratamiento">
+            Fecha fin tratamiento
+            <input type="date">
+        </label>
+    </div>
+    <div class="for-input">
+        <label for="oserbaciones">
+            Oservaciones
+            <textarea name="oservaciones" id="oservaciones" cols="30" rows="10" placeholder="Oservaciones" required></textarea>
+        </label>
+    </div>
+    <!--buttons-->
+    <div class="button">
+        <button type="submit" class="agendar"><em>Agendar</em></button>
+        <button type="submit" class="cancelar"><em>Cancelar</em></button>
+        <button type="submit" class="volver"><em>Volver</em></button>
+        </div>
+    </form>
+</div>
+</body>
+</html>
